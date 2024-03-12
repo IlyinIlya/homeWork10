@@ -41,7 +41,10 @@ public class Main {
         lastName = "Иванов ";
         String newFirstName = firstName.replace('ё', 'е');
         String newMiddleName = middleName.replace('ё','е');
-        fullName = lastName+ newFirstName + newMiddleName;
+        fullName = lastName + newFirstName + newMiddleName;
                 System.out.println("Данные Ф. И. О. сотрудника — " + fullName);
+        //Second way
+        //fullName = lastName + firstName + middleName;
+        //System.out.println("Данные Ф. И. О. сотрудника — " + fullName.replace('ё', 'е'));
     }
 }
