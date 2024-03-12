@@ -27,7 +27,7 @@ public class Main {
         //В качестве строки с исходными данными используйте строку fullName.
         //Результат программы выведите в консоль в формате: «Данные Ф. И. О. сотрудника для заполнения отчета — …».
         String upCaseFullName = fullName.toUpperCase();
-        System.out.println(upCaseFullName);
+        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + upCaseFullName);
 
         //Task 3
         System.out.println("Задача 3");
